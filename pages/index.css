@@ -16,24 +16,27 @@
   min-height: 720px;
   max-height: 800px;
   height: 100vh;
+  padding: 30px 80px 40px;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
-  margin: 30px 80px 183px 30px;
+  margin: 0 0 183px 0;
 }
 
 .nav__logo {
   width: 105px;
   height: 39px;
+  position: relative;
+  left: -50px;
 }
 
 .nav__links {
-  margin: 0;
   display: flex;
   column-gap: 20px;
   list-style-type: none;
+  margin: 0;
   padding: 0;
 }
 
@@ -44,10 +47,12 @@
 }
 
 .header__title {
-  margin: 0 auto 28px 80px;
+  margin: 0 auto 28px 0;
   max-width: 729px;
   font-size: 60px;
   line-height: 72px;
+  font-weight: 500;
+  letter-spacing: -0.6px;
 }
 
 .header__span-accent {
@@ -55,20 +60,14 @@
   font-style: italic;
   font-weight: 400;
   color: #2f80ed;
-}
-
-.header__no-accent {
   display: block;
-  font-style: normal;
-  font-weight: 500;
-  letter-spacing: -0.6px;
 }
 
 .header__description {
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
-  margin: 0 auto 0 80px;
+  margin: 0;
   max-width: 683px;
 }
 
@@ -87,19 +86,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-sizing: border-box;
 }
 
 .header__hours {
   list-style-type: none;
-  margin: 0 0 40px 80px;
+  margin: 0;
   padding: 0;
   font-weight: 500;
   color: #838383;
 }
 
 .header__paragraph {
-  margin: auto 80px 40px auto;
+  margin: 0;
   font-weight: 500;
   color: #838383;
 }
