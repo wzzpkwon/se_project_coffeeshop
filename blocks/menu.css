@@ -16,7 +16,7 @@
   max-width: 780px;
   margin: 24px auto 100px;
   text-align: center;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
 }

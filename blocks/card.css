@@ -2,10 +2,6 @@
   width: 540px;
 }
 
-.card_position_center {
-  margin: 0 auto;
-}
-
 .card__title {
   margin: 0 0 32px;
   font-weight: bold;
@@ -14,6 +10,7 @@
 }
 
 .card__list {
+  margin: 0;
   padding: 0;
 }
 
@@ -21,7 +18,7 @@
   margin-bottom: 16px;
   display: flex;
   position: relative;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
 }
 
 .card__list-item:last-child {
@@ -30,5 +27,5 @@
 
 .card__list-divider {
   flex-grow: 1;
-  border-bottom: solid #838383;
+  border-bottom: 0.5px solid #000000;
 }

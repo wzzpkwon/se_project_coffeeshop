@@ -29,6 +29,8 @@
   justify-content: center;
   gap: 40px;
   margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 .recipes__iframe {
@@ -40,7 +42,7 @@
 .recipes__video-caption {
   display: flex;
   justify-content: space-between;
-  margin-top: 24px;
+  margin: 24px 0 0;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
